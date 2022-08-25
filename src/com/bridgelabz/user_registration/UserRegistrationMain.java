@@ -1,7 +1,6 @@
 package com.bridgelabz.user_registration;
 
-import static com.bridgelabz.user_registration.UserRegistration.validateFirstName;
-import static com.bridgelabz.user_registration.UserRegistration.validateLastName;
+import static com.bridgelabz.user_registration.UserRegistration.*;
 
 public class UserRegistrationMain {
     public static void main(String[] args) {
@@ -11,5 +10,8 @@ public class UserRegistrationMain {
 
         String lastName = "Khan";
         System.out.println(validateLastName(lastName));
+
+        String email = "aman.khan@gmail.co.in";
+        System.out.println(validateEmail(email));
     }
 }
