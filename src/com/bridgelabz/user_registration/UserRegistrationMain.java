@@ -17,7 +17,7 @@ public class UserRegistrationMain {
         String phoneNumber = "91 1234567890";
         System.out.println(validatePhoneNumber(phoneNumber));
 
-        String password = "khanaman";
+        String password = "khanAman";
         System.out.println(validatePassword(password));
     }
 }
