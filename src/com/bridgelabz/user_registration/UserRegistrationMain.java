@@ -13,5 +13,8 @@ public class UserRegistrationMain {
 
         String email = "aman.khan@gmail.co.in";
         System.out.println(validateEmail(email));
+
+        String phoneNumber = "91 1234567890";
+        System.out.println(validatePhoneNumber(phoneNumber));
     }
 }
