@@ -11,7 +11,7 @@ public class UserRegistrationMain {
         String lastName = "Khan";
         System.out.println(validateLastName(lastName));
 
-        String email = "aman.khan@gmail.co.in";
+        String email = "aman-khan@gmail.co1.in";
         System.out.println(validateEmail(email));
 
         String phoneNumber = "91 1234567890";
